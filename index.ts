@@ -27,10 +27,10 @@ export const checkAddress = (address: string) :[boolean, string] => {
     return [hex.slice(-8) == addrHash.slice(0, 8), netByte.toString()];
 }
 
-function hextobin(hex) {
+const hextobin = (hex: string) => {
     if (hex.length % 2 !== 0) throw "Hex string has invalid length!";
-    var res = new Uint8Array(hex.length / 2);
-    for (var i = 0; i < hex.length / 2; ++i) {
+    const res = new Uint8Array(hex.length / 2);
+    for (let i = 0; i < hex.length / 2; ++i) {
         res[i] = parseInt(hex.slice(i * 2, i * 2 + 2), 16);
     }
     return res;

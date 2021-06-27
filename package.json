@@ -2,7 +2,8 @@
   "name": "monero-checker",
   "version": "1.0.1",
   "description": "Checks for valid monero addresses with a lightweight package",
-  "main": "index.ts",
+  "main": "build/index,js",
+
   "scripts": {
     "test": "jest"
   },
