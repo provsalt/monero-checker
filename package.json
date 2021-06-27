@@ -1,6 +1,6 @@
 {
   "name": "monero-checker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Checks for valid monero addresses with a lightweight package",
   "main": "build/index,js",
 
