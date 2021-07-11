@@ -10,12 +10,12 @@ export const Integrated = "13"
 export const checkAddress = (address: string) :[boolean, string] => {
     let netByte;
     if (address.length !== 95 && address.length !== 97 && address.length !== 51 && address.length !== 106){
-        return [false, null];
+        return [false, ""];
     }
     const hex = base58.decode(address).toString("hex")
 
     if (hex.length !== 138 && hex.length !== 140){
-        return [false, null];
+        return [false, ""];
     }
 
     if (hex.length === 140){
