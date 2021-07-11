@@ -19,6 +19,6 @@ import {checkAddress} from "monero-checker";
 console.log(checkAddress("something")) // false
 ```
 
-####### Donating
+###### Donating
 Would be nice if you can tip me some monero if you liked the project, 
 ``856GjQgWDtbbWuwg97ZLuLiUEy9Nj3n9wD7grRE9nqPfQDw4iMCG9roZu3QvpHGzwwYCaFiayM45hZZb6GNawygH9NLQQbF``

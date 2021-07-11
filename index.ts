@@ -1,4 +1,4 @@
-import * as base58 from "base58-monero"
+const base58 = require("base58-monero")
 import {keccak256} from "js-sha3"
 
 export const Truncated = "11"
@@ -6,6 +6,7 @@ export const Standard = "12"
 export const SubAddress = "2a"
 export const Integrated = "13"
 
+// checkAddress checks the address provided below and returns a boolean and a network id.
 export const checkAddress = (address: string) :[boolean, string] => {
     let netByte;
     if (address.length !== 95 && address.length !== 97 && address.length !== 51 && address.length !== 106){
