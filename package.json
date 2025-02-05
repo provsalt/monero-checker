@@ -1,10 +1,9 @@
 {
   "name": "monero-checker",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Checks for valid monero addresses with a lightweight package",
-
   "scripts": {
-    "test": "jest"
+    "test": "bun test"
   },
   "author": "provsalt",
   "license": "MIT",
@@ -13,9 +12,9 @@
     "js-sha3": "^0.8.0"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "@types/node": "^15.12.4",
-    "jest": "^27.0.5"
+    "@types/node": "^22.13.1",
+    "bun-types": "^1.2.2",
+    "typescript": "^5.7.3"
   },
-  "keywords": ["monero", "cryptocurrency", "checker"]
+  "keywords": ["monero", "cryptocurrency", "checker", "crypto"]
 }
