@@ -1,0 +1,6 @@
+{
+  "name": "@provsalt/monero-checker",
+  "version": "1.3.0",
+  "license": "MIT",
+  "exports": "./src/index.ts"
+}
